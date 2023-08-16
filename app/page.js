@@ -6,12 +6,12 @@ export default function Home() {
       <section>
         <h1>Meet the Artist</h1>
         <article>
-          <p></p>
-          <p></p>
+          <p className='color-[##4BA3C3]'></p>
+          <p className='color-[##4BA3C3]'></p>
         </article>
         <article>
-          <p></p>
-          <p></p>
+          <p className='color-[##4BA3C3]'></p>
+          <p className='color-[##4BA3C3]'></p>
         </article>
       </section>
 
@@ -28,7 +28,9 @@ export default function Home() {
 
 
       <section>
-
+        <article>
+          
+        </article>
       </section>
     </main>
   )
