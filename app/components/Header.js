@@ -15,8 +15,8 @@ const Header = () => {
                 <img className="flex place-self-center h-[10rem]" src="/img/navn.png" alt="Name" />
                 <nav className="">
                     <Link className={pathname == "/" ? "pl-5 text-3xl hover:underline text-[#4BA3C3]" : "text-white pl-5 text-3xl hover:underline"} href="/">Home Page</Link>    
-                    <Link className={pathname == "/info-page" ? "pl-5 text-3xl hover:underline text-[#4BA3C3]" : "text-white pl-5 text-3xl hover:underline"} href="/info-page">Info Page</Link>
-                    <Link className={pathname == "/gallery" ? "pl-5 text-3xl hover:underline text-[#4BA3C3]" : "text-white pl-5 text-3xl hover:underline"} href="/gallery">Gallery</Link>
+                    <Link className={pathname == "/gallery" ? "pl-5 text-3xl hover:underline text-[#4BA3C3]" : "text-white pl-5 text-3xl hover:underline"} href="/gallery">View Artworks</Link>
+                    <Link className={pathname == "/info-page" ? "pl-5 text-3xl hover:underline text-[#4BA3C3]" : "text-white pl-5 text-3xl hover:underline"} href="/info-page">About Weslyn</Link>
                 </nav>
             </section>
         </header>

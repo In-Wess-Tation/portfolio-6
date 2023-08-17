@@ -2,9 +2,15 @@
 
 const InfoPage = () => {
     return ( 
+        <>
         <section>
-            
+                
         </section>
+
+
+
+        </>
+       
      );
 }
  
