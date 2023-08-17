@@ -2,6 +2,11 @@ import Footer from "./components/Footer"
 import Header from "./components/Header"
 import './globals.css'
 import { Inter } from 'next/font/google'
+import { Josefin_Sans } from 'next/font/google'
+
+const josefin_sans = Josefin_Sans({ subsets: ['latin'], weight: ["100", "200", "300", "400", "500", "600", "700"] })
+// const tilt_prism = Tilt_Prism({ subsets: ['latin'], weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"] })
+
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -13,7 +18,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body className={josefin_sans.className}>
         <Header />
         {children}
         <Footer />
