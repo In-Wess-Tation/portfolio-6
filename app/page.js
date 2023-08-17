@@ -25,16 +25,18 @@ export default function Home() {
       <section className='pb-[10rem]'>
         <h1 className='text-[2.5rem] text-center pb-[5rem]'>Dazzling Masterpieces</h1>
         <article className='grid grid-rows-2 grid-flow-col gap-10 place-content-center'>
-          <img className='w-[25rem] h-[25rem] object-cover' src="/img/moterbike-2.png" alt="" />
-          <img className='w-[25rem] h-[25rem] object-cover' src="/img/eye.png" alt="" />
-          <img className='w-[25rem] h-[25rem] object-cover' src="/img/DND.png" alt="" />
-          <img className='w-[25rem] h-[25rem] object-cover' src="/img/city-me.png" alt="" />
+          <img className='w-[25rem] h-[30rem] object-cover' src="/img/moterbike-2.png" alt="" />
+          <img className='w-[25rem] h-[30rem] object-cover' src="/img/eye.png" alt="" />
+          <img className='w-[25rem] h-[30rem] object-cover' src="/img/sundown-2.png" alt="" />
+          <img className='w-[25rem] h-[30rem] object-cover' src="/img/city-me.png" alt="" />
         </article>
       </section>
 
 
-      <section className='grid grid-cols-3 pb-[10rem] gap-5'>
-        <article className='border-[0.2rem] border-[#CCE4F6] p-5 text-center'>
+      <section>
+        <h2 className='text-[2.5rem]'>Websites</h2>
+        <article className='grid grid-cols-3 pb-[10rem] gap-5'>
+           <article className='border-[0.2rem] border-[#CCE4F6] p-5 text-center'>
           <img className=' h-[11rem] object-cover' src="/img/MyMovie.png" alt="Movie Website" />
           <h2 className='text-2xl p-3'>My Movie Webpage</h2>
           <p>This website was my first attempt at using an API fully on a whole website. It's made with clean JavaScript and normal CSS.</p>
@@ -52,6 +54,8 @@ export default function Home() {
           <p>This is my fourth attempt at makin my portfolio. This webpage is made with vanilla React and CSS components.</p>
           <Link className='underline text-xl text-[#4BA3C3]' href="https://weslyn-portfolio-4.netlify.app/">Link to 4th Portfolio</Link>
         </article>
+        </article>
+       
       </section>
 
 
