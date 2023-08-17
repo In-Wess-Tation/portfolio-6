@@ -27,8 +27,8 @@ export default function Home() {
         <article className='grid grid-rows-2 grid-flow-col gap-10 place-content-center'>
           <img className='w-[25rem] h-[25rem] object-cover' src="/img/moterbike-2.png" alt="" />
           <img className='w-[25rem] h-[25rem] object-cover' src="/img/eye.png" alt="" />
-          <img className='w-[25rem] h-[25rem] object-cover' src="/img/albino.png" alt="" />
-          <img className='w-[25rem] h-[25rem] object-cover' src="/img/genderfluid.png" alt="" />
+          <img className='w-[25rem] h-[25rem] object-cover' src="/img/DND.png" alt="" />
+          <img className='w-[25rem] h-[25rem] object-cover' src="/img/city-me.png" alt="" />
         </article>
       </section>
 
