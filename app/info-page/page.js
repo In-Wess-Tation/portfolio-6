@@ -27,7 +27,7 @@ const InfoPage = () => {
             </div>
         </section>
 
-        <section>
+        <section className='pb-[10rem]'>
             <h2 className={`text-[2.5rem] text-[#4BA3C3] py-[3rem] ${tilt_prism.className}`}>Perks of hiring me:</h2>
             <article className="flex justify-center gap-10">
                 <div className="pb-5 w-[30%] border-white border-[0.2rem] p-3 text-center">
@@ -46,7 +46,16 @@ const InfoPage = () => {
         </section>
 
         <section>
-            
+            <h2 className='text-[2.5rem] pb-10'>Education: </h2>
+            <article className='flex justify-center gap-10'>
+                <article>
+                    <p className='pb-5'>- From 2019 to 2021 I took the Danish variant of high school. In high school I took the line called STX, where I studied Spanish A, Danish A, English A and Chinese B. As you properly have noticed, I like learning new languages and to me coding is a language. 
+                        The reason why I say coding is like learning a new language is because they have a lot of similarities! Learning the words, learning the grama/functions. Learning how to use the grama in a sentence or using the function to create something on the website. I could go on about how similar the two are. </p>
+                    <p className='pb-5'>- From January 2022 to October 2023, I took the education Web Developer. At this school I have gotten the knowledge for the basics HTML, CSS, JavaScript. Furthermore, I have also been taught about React and the frameworks Remix and Next.js with Tailwind or CSS components. Here I have learned all frontend to become a front-end developer. </p>
+                    <p>- From February 2024 to unknown date, I am Studying at Zealand Business School as a Computer Scientist. There I will learn all the backend I need to become a full-stack developer. </p>
+                </article>
+                <img className='h-[30rem]' src="/img/code.png" alt="Picture of some code from this curent page" />
+            </article>
         </section>
 
         </main>
