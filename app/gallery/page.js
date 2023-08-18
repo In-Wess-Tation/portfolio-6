@@ -9,8 +9,8 @@ const Gallery = () => {
 
         <section className="flex justify-center gap-10 pb-[7rem]">
             <img className="h-[15rem] hover:scale-125 transition duration-500 cursor-pointer" src="/img/Animation_Day_.png" alt="Artwork" />
-            <img className="h-[15rem] hover:scale-125 transition duration-500 cursor-pointer" src="/img/me-lofi.png" alt="Artwork" />
             <img className="h-[15rem] hover:scale-125 transition duration-500 cursor-pointer" src="/img/Wings.png" alt="Artwork" />
+            <img className="h-[15rem] hover:scale-125 transition duration-500 cursor-pointer" src="/img/me-lofi.png" alt="Artwork" />
         </section>
 
         <section className="flex justify-center gap-5 m-[-4rem] py-10">
@@ -60,10 +60,15 @@ const Gallery = () => {
         </section>
 
         <section className="flex m-[-5rem] py-[10rem]">
-            <img className="w-[25%]" src="/img/eye-2.png" alt="Blue eye artwork" />
-            <img className="w-[25%]" src="/img/DND.png" alt="D&D drawing" />
-            <img className="w-[25%]" src="/img/tzekel-kan-2.png" alt="Tzekel Kan drawing" />
-            <img className="w-[25%]" src="/img/pan-me-2.png" alt="Pansexual drawing" />
+            <img className="w-[25%]" src="/img/art-me.png" alt="Tzekel Kan drawing" />
+            <img className="w-[25%]" src="/img/book-shop.png" alt="Blue eye artwork" />
+            <img className="w-[25%]" src="/img/route66.jpg" alt="Pansexual drawing" />
+            <img className="w-[25%]" src="/img/city-me.png" alt="D&D drawing" />
+        </section>
+
+        <section className="flex justify-center gap-[10rem]">
+            <img className="rounded-[15rem] w-[25%]" src="/img/dragon-2.png" alt="Dragon tattoo" />
+            <img className="rounded-[15rem] w-[25%]" src="/img/tettoo-sleeve-2.png" alt="Tattoo sleeve" />
         </section>
 
         </main>
