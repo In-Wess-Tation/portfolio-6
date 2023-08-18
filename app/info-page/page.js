@@ -17,7 +17,7 @@ const InfoPage = () => {
             </div>
         </section>
 
-        <section className="flex justify-center gap-10 pb-[10rem]">
+        <section className="flex justify-center gap-10 pb-[7rem]">
             <img className=" h-[40rem]" src="/img/irl-me.jpg" alt="A picture of me" />
             <div className="w-[50%]">
             <h2 className={`text-[2.5rem] pb-[5rem] text-[#4BA3C3] ${tilt_prism.className}`}>A little about me.</h2>
