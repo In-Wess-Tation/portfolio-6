@@ -45,6 +45,10 @@ const InfoPage = () => {
             </article>
         </section>
 
+        <section>
+            
+        </section>
+
         </main>
        
      );
