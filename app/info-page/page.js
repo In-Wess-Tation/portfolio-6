@@ -1,7 +1,3 @@
-import { Tilt_Prism } from 'next/font/google'
-
-const tilt_prism = Tilt_Prism({ subsets: ['latin'], weight: ["400"] })
-// const tilt_prism = Tilt_Prism({ subsets: ['latin'], weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"] })
 
 
 
@@ -9,7 +5,7 @@ const InfoPage = () => {
     return ( 
         <main className="p-[5rem] text-[#CCE6F4]">
         <section className="bg-[#EDF2F4] m-[-5rem] mb-[10rem] p-10 text-black flex justify-center gap-[10rem]">
-            <h2 className={`text-[#4BA3C3] text-[2.5rem] pb-5 ${tilt_prism.className}`}>Unleash your Creativity!</h2>
+            <h2 className="text-[#4BA3C3] text-[2.5rem] pb-5 ">Unleash your Creativity!</h2>
 
             <div className="w-[40%]">
             <p className="text-[#215669]">To be creative is like a relief for me. For when you hold a lot of emotions inside, that you need to get rid of or express. Art is an amazing tool for me. </p>
@@ -20,7 +16,7 @@ const InfoPage = () => {
         <section className="flex justify-center gap-10 pb-[7rem]">
             <img className=" h-[40rem]" src="/img/irl-me.jpg" alt="A picture of me" />
             <div className="w-[50%]">
-            <h2 className={`text-[2.5rem] pb-[5rem] text-[#4BA3C3] ${tilt_prism.className}`}>A little about me.</h2>
+            <h2 className="text-[2.5rem] pb-[5rem] text-[#4BA3C3] ">A little about me.</h2>
                 <p className="pb-5">I will start by admitting that I am dyslexic, however this has never stopped me in completing my tasks or work. Being dyslexic has never really been a highlight in my life, therefore it hasn’t kept me from doing my assignments, as I always find a solution.</p>
                 <p className="pb-5">I work hard and efficiently. I will never stop until I have a solution to a possible problem. I don't just give up and lie down but ask for help or look for it myself to solve the possible solutions.</p>
                 <p>I am a person who likes to prettify her body. What this should mean is that I have a lot of tattoos, piercings and even dye my hair, but even though I may look a little scary, I'm a nice and sweet person. I care for my fellow students and coworkers. My style does not define who I am as a person, but instead let’s me express myself in a creative way. </p>
@@ -28,7 +24,7 @@ const InfoPage = () => {
         </section>
 
         <section className='pb-[10rem]'>
-            <h2 className={`text-[2.5rem] text-[#4BA3C3] py-[3rem] ${tilt_prism.className}`}>Perks of hiring me:</h2>
+            <h2 className="text-[2.5rem] text-[#4BA3C3] py-[3rem]">Perks of hiring me:</h2>
             <article className="flex justify-center gap-10">
                 <div className="pb-5 w-[30%] border-white border-[0.2rem] p-3 text-center">
                     <h3 className="text-[1.5rem] pb-2">Hard Working</h3>
