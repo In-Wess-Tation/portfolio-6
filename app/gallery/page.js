@@ -3,9 +3,6 @@
 const Gallery = () => {
     return ( 
         <main className="p-[5rem] text-[#CCE6F4]">
-        <section>
-            
-        </section>
 
         <section className="flex justify-center gap-10 pb-[7rem]">
             <img className="h-[15rem] hover:scale-125 transition duration-500 cursor-pointer" src="/img/Animation_Day_.png" alt="Artwork" />
